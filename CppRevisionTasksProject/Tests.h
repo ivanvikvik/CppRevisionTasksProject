@@ -92,9 +92,9 @@ void testingTask05() {
 void testingTask06() {
 
 	bool result = task06(10, 3, 2) == 8
-		&& task06(10, 3, 2) == 18
+		&& task06(20, 3, 2) == 18
 		&& task06(10, 2, 1) == 9
-		&& task06(10, 4, 2) == 7
+		&& task06(10, 4, 3) == 7
 		&& task06(10, 5, 4) == 6
 		&& task06(10, 6, 5) == 5
 		&& task06(10, 7, 6) == 4
