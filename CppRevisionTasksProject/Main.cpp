@@ -1,4 +1,4 @@
-#include "Tests.h"
+﻿#include "Tests.h"
 
 int main(void) {
 	testingTask01();

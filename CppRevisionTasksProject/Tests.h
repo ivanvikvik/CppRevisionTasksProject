@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "Tasks.h"
 
 #define RIGHT "completed successfully. Well DONE!!!"
