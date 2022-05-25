@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 #include "Header.h"
 
 string task01(int, int, int);
