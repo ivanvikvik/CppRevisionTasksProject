@@ -24,8 +24,6 @@
     <ClCompile Include="Task02.cpp" />
     <ClCompile Include="Task03.cpp" />
     <ClCompile Include="Task04.cpp" />
-    <ClCompile Include="Task05.cpp" />
-    <ClCompile Include="Task06.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h" />

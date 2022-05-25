@@ -1,4 +1,4 @@
-﻿/*	Задание 04. Chess & Bishop
+﻿/*	Задание 04. Коробки (Boxes)
 *
 *	Шахматный слон (chess bishop) ходит только по диагоналям.
 *	Даны две различные клетки шахматной доски, определите,
@@ -22,6 +22,6 @@
 
 #include "Tasks.h"
 
-string task04(int x1, int y1, int x2, int y2) {
+string task04(int a1, int b1, int c1, int a2, int b2, int c2) {
 	return "?";
 }
