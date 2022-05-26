@@ -7,9 +7,19 @@
 void testingTask01() {
 	bool result = task01(23, 52, 8, 43) == 8
 		&& task01(14, 7, 6, 11) == 1
-		&& task01(23, 52, 0, 43) == 0;
-				
-	cout << "Task 01" << (result ? RIGHT : WRONG) << endl;
+		&& task01(23, 52, 0, 43) == 0
+		&& task01(7, 14, 6, 11) == 1
+		&& task01(14, 8, 4, 8) == 4
+		&& task01(8, 14, 4, 8) == 4
+		&& task01(8, 14, 4, 12) == 2
+		&& task01(52, 23, 20, 8) == 3
+		&& task01(8, 25, 8, 23) == 0
+		&& task01(53, 41, 20, 25) == 20
+		&& task01(46, 41, 20, 25) == 20
+		&& task01(10, 6, 1, 2) == 1
+		&& task01(24, 10, 8, 24) == 0;
+
+	cout << "Task 01: Nikita and Swimming Pool" << (result ? RIGHT : WRONG) << endl;
 }
 
 void testingTask02() {
@@ -26,7 +36,7 @@ void testingTask02() {
 		&& task02(3, 2, 1) == "1 2 3"
 		&& task02(1, 1, 1) == "1 1 1";
 
-	cout << "Task 02" << (result ? RIGHT : WRONG) << endl;
+	cout << "Task 02: Ordering Numbers" << (result ? RIGHT : WRONG) << endl;
 }
 
 void testingTask03() {
@@ -68,11 +78,81 @@ void testingTask03() {
 		&& task03(4, 4, 4, 5, 5, 4) == "YES"
 		&& task03(4, 4, 4, 4, 4, 5) == "YES"
 		&& task03(4, 4, 4, 4, 5, 4) == "YES"
-		&& task03(4, 4, 4, 5, 4, 4) == "YES";	
-	
-	cout << "Task 03" << (result ? RIGHT : WRONG) << endl;
+		&& task03(4, 4, 4, 5, 4, 4) == "YES";
+
+	cout << "Task 03: Rectangular World 3" << (result ? RIGHT : WRONG) << endl;
 }
 
-void testingTask04() {	
-	cout << "Task 04" << (true ? RIGHT : WRONG) << endl;
+void testingTask04() {
+	bool result = task03(1, 2, 3, 3, 2, 1) == "Boxes are equal."
+		&& task03(2, 2, 3, 3, 2, 1) == "The first box is larger than the second one."
+		&& task03(3, 2, 1, 2, 2, 3) == "The first box is smaller than the second one."
+		&& task03(3, 11, 5, 4, 7, 9) == "Boxes are incomparable."
+		
+		&& task03(1, 1, 1, 1, 1, 1) == "Boxes are equal."
+		&& task03(2, 1, 1, 2, 1, 1) == "Boxes are equal."
+		&& task03(1, 2, 1, 2, 1, 1) == "Boxes are equal."
+		&& task03(1, 1, 2, 2, 1, 1) == "Boxes are equal."
+		&& task03(2, 1, 1, 1, 2, 1) == "Boxes are equal."
+		&& task03(2, 1, 1, 1, 1, 2) == "Boxes are equal."
+		&& task03(2, 2, 1, 2, 2, 1) == "Boxes are equal."
+		&& task03(2, 1, 2, 2, 2, 1) == "Boxes are equal."
+		&& task03(1, 2, 2, 2, 2, 1) == "Boxes are equal."
+		&& task03(1, 2, 2, 1, 2, 2) == "Boxes are equal."
+		&& task03(1, 2, 2, 2, 1, 2) == "Boxes are equal."
+
+		&& task03(2, 3, 2, 3, 2, 1) == "The first box is larger than the second one."
+		&& task03(3, 2, 2, 3, 2, 1) == "The first box is larger than the second one."
+		&& task03(2, 2, 3, 3, 1, 2) == "The first box is larger than the second one."
+		&& task03(2, 2, 3, 2, 3, 1) == "The first box is larger than the second one."
+		&& task03(2, 2, 3, 2, 1, 3) == "The first box is larger than the second one."
+		&& task03(2, 2, 3, 1, 2, 3) == "The first box is larger than the second one."
+		&& task03(2, 2, 3, 1, 3, 2) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 1, 1, 1) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 2, 1, 1) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 1, 2, 1) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 1, 1, 2) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 2, 2, 1) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 2, 1, 2) == "The first box is larger than the second one."
+		&& task03(2, 2, 2, 1, 2, 2) == "The first box is larger than the second one."
+		&& task03(2, 2, 1, 1, 1, 1) == "The first box is larger than the second one."
+		&& task03(2, 1, 2, 1, 1, 1) == "The first box is larger than the second one."
+		&& task03(1, 2, 2, 1, 1, 1) == "The first box is larger than the second one."
+		&& task03(1, 1, 2, 1, 1, 1) == "The first box is larger than the second one."
+		&& task03(1, 2, 1, 1, 1, 1) == "The first box is larger than the second one."
+		&& task03(2, 1, 1, 1, 1, 1) == "The first box is larger than the second one."
+
+		&& task03(3, 1, 2, 2, 2, 3) == "The first box is smaller than the second one."
+		&& task03(2, 3, 1, 2, 2, 3) == "The first box is smaller than the second one."
+		&& task03(2, 1, 3, 2, 2, 3) == "The first box is smaller than the second one."
+		&& task03(1, 2, 3, 2, 2, 3) == "The first box is smaller than the second one."
+		&& task03(1, 3, 2, 2, 2, 3) == "The first box is smaller than the second one."
+		&& task03(3, 2, 1, 2, 3, 2) == "The first box is smaller than the second one."
+		&& task03(3, 2, 1, 3, 2, 2) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(2, 1, 1, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(1, 2, 1, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(1, 1, 2, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(1, 2, 2, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(2, 1, 2, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(2, 2, 1, 2, 2, 2) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 1, 2, 2) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 2, 1, 2) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 2, 2, 1) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 1, 1, 2) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 1, 2, 1) == "The first box is smaller than the second one."
+		&& task03(1, 1, 1, 2, 1, 1) == "The first box is smaller than the second one."
+
+		&& task03(3, 5, 11, 4, 7, 9) == "Boxes are incomparable."
+		&& task03(11, 5, 3, 4, 7, 9) == "Boxes are incomparable."
+		&& task03(11, 3, 5, 4, 7, 9) == "Boxes are incomparable."
+		&& task03(5, 11, 3, 4, 7, 9) == "Boxes are incomparable."
+		&& task03(5, 3, 11, 4, 7, 9) == "Boxes are incomparable."
+		&& task03(3, 11, 5, 4, 9, 7) == "Boxes are incomparable."
+		&& task03(3, 11, 5, 7, 9, 4) == "Boxes are incomparable."
+		&& task03(3, 11, 5, 7, 4, 9) == "Boxes are incomparable."
+		&& task03(3, 11, 5, 9, 7, 4) == "Boxes are incomparable."
+		&& task03(3, 11, 5, 9, 4, 7) == "Boxes are incomparable.";
+
+	cout << "Task 04: Boxes" << (true ? RIGHT : WRONG) << endl;
 }
