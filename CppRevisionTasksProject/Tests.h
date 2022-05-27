@@ -154,5 +154,5 @@ void testingTask04() {
 		&& task03(3, 11, 5, 9, 7, 4) == "Boxes are incomparable."
 		&& task03(3, 11, 5, 9, 4, 7) == "Boxes are incomparable.";
 
-	cout << "Task 04: Boxes" << (true ? RIGHT : WRONG) << endl;
+	cout << "Task 04: Boxes" << (result ? RIGHT : WRONG) << endl;
 }
