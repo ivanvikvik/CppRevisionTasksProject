@@ -1,26 +1,30 @@
-﻿/*	Задание 02. Упорядочивание чисел (Ordering Numbers)
+﻿/*	Задание 02. Наименьший натуральный делитель (The Smallest Natural Divisor)
 *
-*	Даны три числа. Упорядочите их в порядке неубывания.
+*	Дано целое число, не меньшее 2. Выведите его наименьший натуральный делитель, отличный от 1.
+*	Если данные введены некорректно, то выведите ноль.
 *
 *	Формат входных данных [input]
-*	Функция принимает три числа.
+*	Функция принимает целое число.
 *
-*	Формат выходных данных
-*	Функция должна возвратить в виде строки три числа, которые упорядочены в порядке неубывания.
-*	Числа в строке должны быть разделены друг от друга одним пробелом
+*	Формат выходных данных [output]
+*	Функция должна возвратить число, которое является решение задачи.
 *
-*	[Sample function input 1]: 7 6 1
-*	[Sample function output 1]: 1 6 7
+*	[Sample function input 1]: 15
+*	[Sample function output 1]: 3
 *
-*	[Sample function input 2]: 6 7 2
-*	[Sample function output 2]: 2 6 7
+*	[Sample function input 2]: 49
+*	[Sample function output 2]: 7
 *
-*	[Sample function input 3]: 7 4 7
-*	[Sample function output 3]: 4 7 7
+*	[Sample function input 3]: 1
+*	[Sample function output 3]: 0
+*
+*	[Sample function input 4]: -15
+*	[Sample function output 4]: 0
 */
+
 
 #include "Tasks.h"
 
-string task02(int a, int b, int c) {
-	return "a b c";
+int task02(int number) {
+	return 0;
 }

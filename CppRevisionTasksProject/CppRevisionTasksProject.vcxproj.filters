@@ -30,6 +30,15 @@
     <ClCompile Include="Task04.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Task05.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Task06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Task07.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Header.h">
