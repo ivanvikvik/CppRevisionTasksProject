@@ -39,7 +39,7 @@ void testingTask02() {
 		&& task02(11) == 11
 		&& task02(13) == 13
 		&& task02(17) == 17
-		&& task02(17) == 19
+		&& task02(19) == 19
 		&& task02(23) == 23
 		&& task02(29) == 29
 		&& task02(31) == 31;
@@ -89,20 +89,6 @@ void testingTask04() {
 		&& task04(50) == "NO";
 
 	cout << "Task 04: An Exact Power of Two" << (result ? RIGHT : WRONG) << endl;
-}
-
-void testingTask05() {
-	bool result = task05(15) == 2
-		&& task05(9) == 1
-		&& task05(0) == 1
-		&& task05(-15) == 2
-		&& task05(1234567890) == 10
-		&& task05(900) == 3
-		&& task05(11111) == 5
-		&& task05(999999) == 6
-		&& task05(1000000) == 7;
-
-	cout << "Task 05: Count of Number Digits" << (result ? RIGHT : WRONG) << endl;
 }
 
 void testingTask05() {
