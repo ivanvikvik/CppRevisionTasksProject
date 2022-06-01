@@ -106,12 +106,12 @@ void testingTask03() {
 }
 
 void testingTask04() {
-	bool result = task04(2) == 3
-		&& task04(3) == 4
-		&& task04(55) == 10
-		&& task04(75025) == 25
-		&& task04(11) == -1
-		&& task04(-100) == -1
+	bool result = task04(0) == 0
+		&& task04(1) == 1
+		&& task04(2) == 1
+		&& task04(3) == 2
+		&& task04(4) == 3
+		&& task04(5) == 5
 		&& task04(6) == 8
 		&& task04(7) == 13
 		&& task04(8) == 21
@@ -123,9 +123,11 @@ void testingTask04() {
 		&& task04(14) == 377
 		&& task04(15) == 610
 		&& task04(25) == 75025
-		&& task04(-1) == 0
-		&& task04(-9) == 0
-		&& task04(-10) == 0;
+		&& task04(-1) == -1
+		&& task04(-9) == -1
+		&& task04(-10) == -1
+		&& task04(-99) == -1
+		&& task04(-100) == -1;
 
 	cout << "Task 04: The Fibonacci Number" << (result ? RIGHT : WRONG) << endl;
 }
