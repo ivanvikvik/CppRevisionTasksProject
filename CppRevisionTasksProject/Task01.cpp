@@ -24,6 +24,6 @@
 
 #include "Tasks.h"
 
-int task01(long number) {
+int task01(long long number) {
 	return 0;
 }
