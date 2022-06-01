@@ -77,7 +77,7 @@ void testingTask03() {
 	bool result = task03(12345) == 4
 		&& task03(-56789) == 8
 		&& task03(11) == -1
-		&& task03(0) == 0
+		&& task03(0) == -1
 		&& task03(56789) == 8
 		&& task03(-12345) == 4
 		&& task03(41) == 1
