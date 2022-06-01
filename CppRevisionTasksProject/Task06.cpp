@@ -28,6 +28,6 @@
 
 #include "Tasks.h"
 
-int task06(long number) {
+int task06(long long number) {
 	return 0;
 }
