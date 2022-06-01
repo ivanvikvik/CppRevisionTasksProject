@@ -1,10 +1,10 @@
 ﻿#pragma once
 #include "Header.h"
 
-string task01(int);
-int task02(int);
-string task03(int);
-string task04(int);
-int task05(long);
+int task01(long);
+int task02(long);
+int task03(long);
+int task04(int);
+int task05(int);
 int task06(long);
 int task07(long);

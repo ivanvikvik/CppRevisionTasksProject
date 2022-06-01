@@ -1,29 +1,29 @@
-﻿/*	Задание 03. Все целые степени двойк (All Integer Powers of Two)
+﻿/*	Задание 03. Вторая максимальная цифра (The Double Max)
 *
-*	По данному числу N распечатайте все целые степени двойки, не превосходящие N, в порядке возрастания.
-*	В случае некоректных данных напечатайте ноль.
+*	Дано целое число. Определите вторую по величине цифру данного числа, т.е. цифру, которая будет наибольшим,
+*	если из числа удалить наибольшую цифру. Если нет такой цифры, то вывести -1.
 *
 *	Формат входных данных [input]
-*	Функция должна получать натуральное число.
+*	Функция должна получать целое число.
 *
 *	Формат выходных данных [output]
-*	Функция должн возвращать строку, которая содержит ответ на задачу.
+*	Функция должна возвратить число, которое является решение задачи.
 *
-*	[Sample function input 1]: 40
-*	[Sample function output 1]: 1 2 4 8 16 32
+*	[Sample function input 1]: 12345
+*	[Sample function output 1]: 4
 *
-*	[Sample function input 2]: 1
-*	[Sample function output 2]: 1
+*	[Sample function input 2]: -56789
+*	[Sample function output 2]: 8
 * 
-*	[Sample function input 3]: 0
-*	[Sample function output 3]: 0
+*	[Sample function input 3]: 11
+*	[Sample function output 3]: -1
 *
-*	[Sample function input 4]: -40
-*	[Sample function output 4]: 0
+*	[Sample function input 4]: 0
+*	[Sample function output 4]: -1
 */
 
 #include "Tasks.h"
 
-string task03(int number) {
-	return "0";
+int task03(long number) {
+	return 0;
 }

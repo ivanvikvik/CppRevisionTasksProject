@@ -1,29 +1,44 @@
-﻿/*	Задание 05. Подсчёт цифр числа (Count of Number Digits)
+﻿/*	Задание 05. Порядковый номер числа Фибоначчи (The Count of Fibonacci Number)
 *
-*	Дано целое число. Подсчитайте количество цифр в нём.
+*	Последовательность Фибоначчи определяется так:
+*	F(0) = 0, F(1) = 1, F(2) = 1, F(3) = 2, F(4) = 3, …, F(n) = F(n−1) + F(n−2).
+*	Дано натуральное число A. Определите, каким по счету числом Фибоначчи оно является, 
+*	т.е. выведите такое число N, что F(N) = A. 
+*	Если А не является числом Фибоначчи, выведите число -1.
 *
 *	Формат входных данных [input]
-*	Функция принимает целое число.
+*	Функция должна получать целое число.
 *
 *	Формат выходных данных [output]
-*	Функция должна возвратить число, которое является решение задачи.
+*	Функция должна возвратить порядковый номер N-числа числового ряда Фибоначчи или -1.
 *
-*	[Sample function input 1]: 15
-*	[Sample function output 1]: 2
+*	[Sample function input 1]: 0
+*	[Sample function output 1]: 0
 *
-*	[Sample function input 2]: 9
-*	[Sample function output 2]: 1
+*	[Sample function input 2]: 1
+*	[Sample function output 2]: 1 или 2 (оба варианта подходят, но в тесте проверяется первый вариант)
 *
-*	[Sample function input 3]: 0
-*	[Sample function output 3]: 1
+*	[Sample function input 3]: 2
+*	[Sample function output 3]: 3
 *
-*	[Sample function input 4]: -15
-*	[Sample function output 4]: 2
+*	[Sample function input 4]: 3
+*	[Sample function output 4]: 4
+*
+*	[Sample function input 5]: 55
+*	[Sample function output 5]: 10
+*
+*	[Sample function input 6]: 75025
+*	[Sample function output 6]: 25
+*
+*	[Sample function input 7]: 11
+*	[Sample function output 7]: -1
+*
+*	[Sample function input 8]: -100
+*	[Sample function output 8]: -1
 */
-
 
 #include "Tasks.h"
 
-int task05(long number) {
+int task05(int number) {
 	return 0;
 }
